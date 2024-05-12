@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+netgear_fw_encrypt.py
+*_repacked.spk
