@@ -99,3 +99,10 @@ AT!BAND=04,"",0
 AT!BAND=01
 AT!RESET
 ```
+#### Change IMEI
+'''
+AT!NVIMEIUNLOCK
+AT!NVENCRYPTIMEI=12,34,56,78,90,12,34,52    (replace the numbers with the numbers from your IMEI)
+AT!RESET
+'''
+The device should reboot and your IMEI should be changed. 
